@@ -3,11 +3,11 @@ package net.mikka.adventofcode2022
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
-internal abstract class AbstractAdventOfCodeTest {
+internal abstract class AbstractAdventOfCodeTest<T> {
 
     abstract fun getInput(): String
-    abstract fun getExpectedValueForPuzzle1(): Int
-    abstract fun getExpectedValueForPuzzle2(): Int
+    abstract fun getExpectedValueForPuzzle1(): T
+    abstract fun getExpectedValueForPuzzle2(): T
 
     private val puzzle: PuzzleDay<*> = getPuzzle()
 
