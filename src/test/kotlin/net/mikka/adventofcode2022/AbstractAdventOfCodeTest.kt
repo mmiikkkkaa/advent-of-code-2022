@@ -21,7 +21,7 @@ internal abstract class AbstractAdventOfCodeTest<T> {
     fun `should solve puzzle 1`() {
         // when
 
-        val result = puzzle.getPuzzle1().solve(getInput().split("\n"))
+        val result = puzzle.getPuzzle1().solve(getInput().trimIndent().split("\n"))
 
         // then
         assertThat(result).isEqualTo(getExpectedValueForPuzzle1())
@@ -30,7 +30,7 @@ internal abstract class AbstractAdventOfCodeTest<T> {
     @Test
     fun `should solve puzzle 2`() {
         // when
-        val result = puzzle.getPuzzle2().solve(getInput().split("\n"))
+        val result = puzzle.getPuzzle2().solve(getInput().trimIndent().split("\n"))
 
         // then
         assertThat(result).isEqualTo(getExpectedValueForPuzzle2())
