@@ -12,7 +12,7 @@ internal abstract class AbstractAdventOfCodeTest<T> {
     private val puzzle: PuzzleDay<*> = getPuzzle()
 
     private fun getPuzzle(): PuzzleDay<*> {
-        return Class.forName(this.javaClass.name.removeSuffix("Test"))
+        return Class.forName(this.javaClass.name.substringBefore("Test"))
             .getDeclaredConstructor()
             .newInstance() as PuzzleDay<*>
     }
