@@ -67,10 +67,7 @@ class Dec10 : PuzzleDay<Int, String>() {
                 register += numberToAdd
             }
 
-            val wrappedDisplayOutput = wrapDisplay(displayOutput)
-
-            println(wrappedDisplayOutput)
-            return wrappedDisplayOutput
+            return wrapDisplay(displayOutput)
         }
 
         private fun wrapDisplay(displayOutput: String): String {
