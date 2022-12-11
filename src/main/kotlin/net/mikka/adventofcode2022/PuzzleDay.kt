@@ -1,6 +1,6 @@
 package net.mikka.adventofcode2022
 
-abstract class PuzzleDay<T> {
+abstract class PuzzleDay<T1, T2> {
 
     private val fileInput = ResourceReader().readLinesFromResourceFile("/" + this::class.simpleName!!.lowercase() + ".txt")
 
@@ -10,6 +10,6 @@ abstract class PuzzleDay<T> {
         println("###################")
     }
 
-    abstract fun getPuzzle1(): Puzzle<T>
-    abstract fun getPuzzle2(): Puzzle<T>
+    abstract fun getPuzzle1(): Puzzle<T1>
+    abstract fun getPuzzle2(): Puzzle<T2>
 }

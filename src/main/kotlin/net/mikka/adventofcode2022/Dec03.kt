@@ -3,7 +3,7 @@ package net.mikka.adventofcode2022
 import kotlin.streams.toList
 
 @Suppress("unused")
-class Dec03 : PuzzleDay<Int>() {
+class Dec03 : PuzzleDay<Int, Int>() {
 
     override fun getPuzzle1(): Puzzle<Int> {
         return Puzzle01()

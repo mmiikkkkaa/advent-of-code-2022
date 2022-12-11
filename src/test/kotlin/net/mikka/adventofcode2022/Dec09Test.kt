@@ -1,6 +1,6 @@
 package net.mikka.adventofcode2022
 
-internal class Dec09Test : AbstractAdventOfCodeTest<Int>() {
+internal class Dec09Test : AbstractAdventOfCodeTest<Int, Int>() {
 
     override fun getInput(): String {
         return """

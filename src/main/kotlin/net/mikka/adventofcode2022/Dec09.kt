@@ -4,7 +4,7 @@ import java.util.*
 import kotlin.math.abs
 
 @Suppress("unused")
-class Dec09 : PuzzleDay<Int>() {
+class Dec09 : PuzzleDay<Int, Int>() {
 
     override fun getPuzzle1(): Puzzle<Int> {
         return Puzzle01()

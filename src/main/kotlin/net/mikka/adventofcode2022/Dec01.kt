@@ -2,7 +2,7 @@ package net.mikka.adventofcode2022
 
 import kotlin.math.max
 
-class Dec01 : PuzzleDay<Int>() {
+class Dec01 : PuzzleDay<Int, Int>() {
 
     override fun getPuzzle1(): Puzzle<Int> {
         return Puzzle01()

@@ -1,7 +1,7 @@
 package net.mikka.adventofcode2022
 
 @Suppress("unused")
-class Dec05 : PuzzleDay<String>() {
+class Dec05 : PuzzleDay<String, String>() {
 
     override fun getPuzzle1(): Puzzle<String> {
         return Puzzle01()

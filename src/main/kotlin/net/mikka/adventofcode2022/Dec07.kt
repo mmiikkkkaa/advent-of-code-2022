@@ -4,7 +4,7 @@ import java.util.*
 import java.util.function.Predicate
 
 @Suppress("unused")
-class Dec07 : PuzzleDay<Int>() {
+class Dec07 : PuzzleDay<Int, Int>() {
 
     override fun getPuzzle1(): Puzzle<Int> {
         return Puzzle01()

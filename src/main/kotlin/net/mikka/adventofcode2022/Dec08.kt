@@ -4,7 +4,7 @@ import java.util.*
 import kotlin.streams.toList
 
 @Suppress("unused")
-class Dec08 : PuzzleDay<Int>() {
+class Dec08 : PuzzleDay<Int, Int>() {
 
     override fun getPuzzle1(): Puzzle<Int> {
         return Puzzle01()
